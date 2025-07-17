@@ -1,9 +1,15 @@
 export function Offers() {
   return (
-    <div className="relative">
-      <div>
-        <img className="hidden md:inline" src="businessPeople.png " />
-        <img className=" md:hidden" src="businessPeopleLong.png " />
+    <div className="w-full relative">
+      <div className="w-full h-screen flex  ">
+        <img
+          className="hidden md:inline w-full h-full object-cover"
+          src="businessPeople.png "
+        />
+        <img
+          className=" md:hidden w-full h-full object-cover"
+          src="businessPeopleLong.png "
+        />
       </div>
       <div className="absolute bottom-6 md:bottom-10">
         <div className="pl-6 md:pl-18 mb-4">

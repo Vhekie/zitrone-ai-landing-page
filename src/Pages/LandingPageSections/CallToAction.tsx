@@ -1,5 +1,3 @@
-import { Button } from "@/components/ui/button";
-
 export function CallToAction() {
   return (
     <div className="bg-[url('/CTA.png')] ">

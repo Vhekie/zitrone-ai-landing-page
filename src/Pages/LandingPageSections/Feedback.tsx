@@ -1,6 +1,6 @@
 export function Feedback() {
   return (
-    <div className="bg-amber-100">
+    <div className="bg-amber-100 w-[100%]">
       <div className="text-black flex flex-col justify-center items-center pt-12">
         <h3 className="text-2xl md:text-4xl mb-2">
           Assist with Personalized Precision
@@ -11,7 +11,7 @@ export function Feedback() {
           catalogs.​
         </p>
       </div>
-      <div className="pt-4 px-6 md:px-36 pb-14">
+      <div className="w-full flex justify-center  pt-4 px-6 md:px-36 pb-14">
         <img src="shopping.png" />
       </div>
     </div>

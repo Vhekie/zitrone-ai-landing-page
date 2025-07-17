@@ -21,6 +21,8 @@ export function LandingPage() {
       <CustomerData />
       <Offers />
       <Product />
+      <CaseStudy />
+      <Footer />
       <CallToAction />
       <Pricing />
       <FAQ />

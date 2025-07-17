@@ -1,6 +1,6 @@
 export function CustomerData() {
   return (
-    <div className="bg-fuchsia-100">
+    <div className="w-full bg-fuchsia-100">
       <div className="text-black flex flex-col px-6 justify-center items-center pt-12">
         <h3 className="text-xl font-bold md:text-4xl mb-4 ">
           Deepen Customer Understanding
@@ -15,7 +15,7 @@ export function CustomerData() {
           customer service.
         </p>
       </div>
-      <div className="pt-4 px-6 md:px-36 pb-14">
+      <div className="w-full flex justify-center pt-4 px-6 md:px-36 pb-14">
         <img src="customerData.png" />
       </div>
     </div>

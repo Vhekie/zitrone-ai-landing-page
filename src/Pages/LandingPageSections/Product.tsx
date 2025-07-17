@@ -11,7 +11,7 @@ export function Product() {
         </p>
       </div>
 
-      <div className="pt-4 px-6 sm:px-12 md:px-36 mb-24 w-full">
+      <div className="pt-4 px-6 sm:px-12 md:px-36 mb-24 w-full flex justify-center">
         <img src="product.png" className="w-full h-auto" />
       </div>
     </div>

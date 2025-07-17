@@ -10,7 +10,7 @@ export function CaseStudy() {
           src="quote.png"
         />
         <p className="text-xs text-orange-600 mb-6 ">Case Study</p>
-        <div className=" text-2xl text-center md:w-[38%] italic ">
+        <div className="font-bold px-2 md:text-2xl text-center md:w-[38%] italic ">
           "We added the AI Shopping Agent and watched our sales jump 29% in just
           3 weeks"
         </div>
@@ -55,12 +55,12 @@ export function CaseStudy() {
 
       <div className="bg-orange-600 w-auto mx-4  md:mx-12 mt-12 md:mt-22 rounded-xl md:relative">
         <img className="w-full " src="Vector.png" />
-        <div className="flex flex-col space-y-4 pb-6 items-center  md:flex-row md:space-x-12 w-full ">
-          <p className="font-bold md:text-4xl md:absolute md:top-12 md:left-50 md:pl-24 md:-translate-x-1/2   ">
+        <div className="flex md:space-x-12 space-y-4 pb-6 px-4  ">
+          <p className="text-2xl md:text-4xl font-bold md:absolute md:top-12 md:left-50 md:pl-24 md:-translate-x-1/2">
             Ready to boost your sales?
           </p>
-          <Button className="md:absolute md:top-12 md:right-10 md:-translate-x-1/2 rounded-2xl text-lg bg-transparent text-white border border-white px-12">
-            Book a demo
+          <Button className="md:absolute md:top-12 md:right-10 md:-translate-x-1/2 rounded-2xl md:text-lg bg-transparent text-white border border-white md:px-12">
+            Get Started
           </Button>
         </div>
       </div>

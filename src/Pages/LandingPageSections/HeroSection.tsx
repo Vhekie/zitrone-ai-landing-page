@@ -16,9 +16,12 @@ export function HeroSection() {
             discover, research, and buy with confidence.
           </p>
           <div className="flex flex-col space-y-4 md:flex-row md:space-x-2  ">
-            <Button className="bg-amber-600 text-white text-xs rounded-full px-12 py-6">
-              Get Started
-            </Button>
+            <a href="https://apps.shopify.com/zitrone-ai" target="_blank">
+              <Button className="bg-amber-600 text-white text-xs rounded-full px-12 py-6">
+                Get Started
+              </Button>
+            </a>
+
             <Button className=" text-white text-xs bg-transparent border border-white rounded-full px-12 py-6">
               Learn More
             </Button>
@@ -34,9 +37,11 @@ export function HeroSection() {
             <p>Contact</p>
             <p>Help Center</p>
           </nav>
-          <Button className="bg-amber-600 text-white rounded-full text-xs ">
-            Get Started
-          </Button>
+          <a href="https://apps.shopify.com/zitrone-ai" target="_blank">
+            <Button className="bg-amber-600 text-white rounded-full text-xs ">
+              Get Started
+            </Button>
+          </a>
         </div>
 
         <div className="mt-12 pb-8">
